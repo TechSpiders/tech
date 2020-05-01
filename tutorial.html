@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>TechSpiders Tutorial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="spiderstyle.css">
+<link rel="stylesheet" href="technews.css">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <img src="spider.png" alt="logo" />
+  
+  <header><h1>TechSpiders</h1></header>
+  
+<nav>
+<ul>
+  <li><a class="active" href="index.html">What's Today</a></li>
+  <li><a href="technews.html">Tech News</a></li>
+   <li><a href="techlegend.html">Tech Legend</a></li>
+  <li><a href="spidersblog.html">Blog</a></li>
+  <li><a href="tutorial.html">Tutorial</a></li>
+  <li><a href="join-to-techspider.html" targert="_self">Join</a></li>
+</ul>
+</nav>
+	<div class="main">
+
+		<h2 class="main_title">Tutorial</h2>
+
+		<h1 class="example_title">Just wait</h1>
+		<p class="example_desc"> </p>
+		<div class="dummy">
+			<p>
+	Coming soon....
+ </p>
+		</div>
+	
+	<script src="readMoreJS.min.js"></script>
+	<script>
+		$readMoreJS.init({
+			target: '.dummy p',
+			numOfWords: 50,
+			toggle: true,
+			moreLink: 'Read More ...',
+			lessLink: 'Read Less'
+		});
+	</script>
+
+</body>
+</html>
